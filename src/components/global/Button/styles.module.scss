@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: none;
+  border: none;
+
+  width: 100%;
+  padding: 15px 25px;
+  border-radius: 4.08288px;
+  cursor: pointer;
+
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  letter-spacing: 0.05em;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.blue {
+  background-color: var(--color-blue-200);
+}
+
+.green {
+  background-color: var(--color-green-200);
+}
+
+.red {
+  background-color: var(--color-background);
+}
+
+.red-dark {
+  background-color: var(--color-background-100);
+}
+
+.black {
+  background-color: var(--color-black);
+}
+
+.button_container {
+  margin-left: 14px;
+}

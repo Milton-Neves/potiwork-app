@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 70vw;
+  max-width: 80vw;
+  padding: 3rem 0;
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 980px) {
+    padding-right: 10rem;
+    &__card {
+      grid-template-columns: 1fr 1fr;
+      text-align: left;
+    }
+  }
+}

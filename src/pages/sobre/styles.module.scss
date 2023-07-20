@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 70vw;
+  max-width: 80vw;
+  padding: 3rem 0;
+  font-size: 0.9rem;
+
+  h3 {
+    margin: 0 0 0.7rem 0;
+  }
+
+  p {
+    margin: 0.2rem 0;
+    font-style: normal !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+  }
+}
+
+.mt_3 {
+  margin-top: 3rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.grid_4 {
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 765px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid_2 {
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 765px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,73 @@
+:root {
+  --color-background: #ff827e;
+  --color-background-100: #ff4540;
+  --color-secundary: #ff645f;
+  --color-black: #3f3f3f;
+  --color-white: #ffffff;
+  --color-white-100: #f6f6f6;
+  --color-white-200: #a9a9a9;
+  --color-blue-200: #07619d;
+  --color-green-200: #76a485;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  -webkit-font-alignment: alignment;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.ck.ck-editor__main > .ck-editor__editable {
+  min-height: 200px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  @media screen and (min-width: 250px) {
+    font-size: 2.3rem;
+  }
+  @media screen and (min-width: 320px) {
+    font-size: 3rem;
+  }
+  @media screen and (min-width: 765px) {
+    font-size: 5rem;
+  }
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%; // 15px
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%; // 14px
+  }
+}

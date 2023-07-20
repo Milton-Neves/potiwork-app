@@ -1,0 +1,1 @@
+export const TOKEN_VARIABLE = "@Revistas:token";

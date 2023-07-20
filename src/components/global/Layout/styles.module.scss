@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.main {
+  background-image: url("/images/background.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: local;
+  height: 100%;
+  flex: 1;
+}
